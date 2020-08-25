@@ -7,7 +7,7 @@ class GridMap:
 			self.map = map_matrix
 			self.width = len(map_matrix[0])
 			self.height = len(map_matrix)
-			self.image_size = 500
+			self.image_size = 1000
 			self.map_img = self.construct_map_image()
 			self.path = []
 
